@@ -29,9 +29,6 @@ jobs:
     - name: Build the Solution
       run: msbuild GitHubActionMVCDemo.sln /nologo /nr:false /p:DeployOnBuild=true /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:DeleteExistingFiles=True /p:platform="Any CPU" /p:configuration="Release" /p:PublishUrl="../_build"
      
-    - name: Run Test
-      run:  '& "$(vswhere -property installationPath)\Common7\IDE\Extensions\TestPlatform\vstest.console.exe" GitHubActionMVCDemo.Tests\bin\Release\GitHubActionMVCDemo.Tests.dll '
-
     - name: 'Create tag if necessary'
       id: version
       uses: fregante/daily-version-action@v1
