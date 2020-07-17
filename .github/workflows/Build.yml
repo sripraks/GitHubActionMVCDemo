@@ -32,6 +32,13 @@ jobs:
     - name: Run Test
       run:  '& "$(vswhere -property installationPath)\Common7\IDE\Extensions\TestPlatform\vstest.console.exe" GitHubActionMVCDemo.Tests\bin\Release\GitHubActionMVCDemo.Tests.dll '
 
+    - name: 'Create tag if necessary'
+      id: version
+      uses: fregante/daily-version-action@v1
+    - name: 'Created?'
+      if: steps.version.outputs.created
+      run: echo 'Created!' ${{ steps.version.outputs.version }}
+      
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
       with:
