@@ -33,7 +33,7 @@ jobs:
       id: version
       uses: fregante/daily-version-action@v1
       
-    - name: Upload artifact
+    - name: Upload artifact with version
       uses: actions/upload-artifact@v1.0.0
       with:
             name: GitHubActionMVCDemo-${{ steps.version.outputs.version }}
