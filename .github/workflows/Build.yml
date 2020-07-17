@@ -29,16 +29,13 @@ jobs:
     - name: Build the Solution
       run: msbuild GitHubActionMVCDemo.sln /nologo /nr:false /p:DeployOnBuild=true /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:DeleteExistingFiles=True /p:platform="Any CPU" /p:configuration="Release" /p:PublishUrl="../_build"
      
-    - name: 'Create tag if necessary'
+    - name: 'Generate Version'
       id: version
       uses: fregante/daily-version-action@v1
-    - name: 'Created?'
-      if: steps.version.outputs.created
-      run: echo 'Created!' ${{ steps.version.outputs.version }}
       
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
       with:
-            name: GitHubActionMVCDemo
+            name: GitHubActionMVCDemo-${{ steps.version.outputs.version }}
             path: "./_build"
 
