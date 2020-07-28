@@ -38,3 +38,6 @@ D:\Technical\Mywork\GitHub\GitHubActionMVCDemo\GitHubActionMVCDemo.Tests\obj\Deb
 D:\Technical\Mywork\GitHub\GitHubActionMVCDemo\GitHubActionMVCDemo.Tests\obj\Debug\GitHubActionMVCDemo.Tests.csproj.CopyComplete
 D:\Technical\Mywork\GitHub\GitHubActionMVCDemo\GitHubActionMVCDemo.Tests\obj\Debug\GitHubActionMVCDemo.Tests.dll
 D:\Technical\Mywork\GitHub\GitHubActionMVCDemo\GitHubActionMVCDemo.Tests\obj\Debug\GitHubActionMVCDemo.Tests.pdb
+D:\Technical\Mywork\GitHub\GitHubActionMVCDemo\GitHubActionMVCDemo.Tests\bin\Debug\WebGrease.dll
+D:\Technical\Mywork\GitHub\GitHubActionMVCDemo\GitHubActionMVCDemo.Tests\bin\Debug\Antlr3.Runtime.dll
+D:\Technical\Mywork\GitHub\GitHubActionMVCDemo\GitHubActionMVCDemo.Tests\bin\Debug\Antlr3.Runtime.pdb

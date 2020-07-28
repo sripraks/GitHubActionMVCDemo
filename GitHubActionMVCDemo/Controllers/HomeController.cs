@@ -15,7 +15,7 @@ namespace GitHubActionMVCDemo.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Git Hub Action Demo ";
+            ViewBag.Message = "Git Hub Action Demo with semantic version ";
 
             return View();
         }
