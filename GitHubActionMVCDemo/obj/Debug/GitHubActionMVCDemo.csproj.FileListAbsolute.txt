@@ -78,7 +78,6 @@ D:\Technical\Mywork\GitHub\GitHubActionMVCDemo\GitHubActionMVCDemo\bin\System.Ne
 D:\Technical\Mywork\GitHub\GitHubActionMVCDemo\GitHubActionMVCDemo\bin\System.Web.Http.xml
 D:\Technical\Mywork\GitHub\GitHubActionMVCDemo\GitHubActionMVCDemo\bin\System.Web.Http.WebHost.xml
 D:\Technical\Mywork\GitHub\GitHubActionMVCDemo\GitHubActionMVCDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Technical\Mywork\GitHub\GitHubActionMVCDemo\GitHubActionMVCDemo\obj\Debug\GitHubActionMVCDemo.csprojAssemblyReference.cache
 D:\Technical\Mywork\GitHub\GitHubActionMVCDemo\GitHubActionMVCDemo\obj\Debug\GitHubActionMVCDemo.csproj.CopyComplete
 D:\Technical\Mywork\GitHub\GitHubActionMVCDemo\GitHubActionMVCDemo\obj\Debug\GitHubActionMVCDemo.dll
 D:\Technical\Mywork\GitHub\GitHubActionMVCDemo\GitHubActionMVCDemo\obj\Debug\GitHubActionMVCDemo.pdb
