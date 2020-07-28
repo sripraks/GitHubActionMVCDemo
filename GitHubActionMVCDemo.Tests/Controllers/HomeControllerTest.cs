@@ -35,7 +35,7 @@ namespace GitHubActionMVCDemo.Tests.Controllers
             ViewResult result = controller.About() as ViewResult;
 
             // Assert
-            Assert.AreEqual("Git Hub Action Demo ", result.ViewBag.Message);
+            Assert.AreEqual("Git Hub Action Demo with semantic versioning ", result.ViewBag.Message);
         }
 
         [TestMethod]
