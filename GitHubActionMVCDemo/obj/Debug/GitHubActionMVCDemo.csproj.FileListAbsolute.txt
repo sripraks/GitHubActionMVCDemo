@@ -83,4 +83,3 @@ D:\Technical\Mywork\GitHub\GitHubActionMVCDemo\GitHubActionMVCDemo\obj\Debug\Git
 D:\Technical\Mywork\GitHub\GitHubActionMVCDemo\GitHubActionMVCDemo\obj\Debug\GitHubActionMVCDemo.pdb
 D:\Technical\Mywork\GitHub\GitHubActionMVCDemo\GitHubActionMVCDemo\obj\Debug\AssemblyInfo.g.cs
 D:\Technical\Mywork\GitHub\GitHubActionMVCDemo\GitHubActionMVCDemo\obj\Debug\GitVersionInformation.g.cs
-D:\Technical\Mywork\GitHub\GitHubActionMVCDemo\GitHubActionMVCDemo\obj\Debug\GitHubActionMVCDemo.csprojAssemblyReference.cache
