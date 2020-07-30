@@ -23,11 +23,21 @@ jobs:
     - name: Setup NuGet
       uses: NuGet/setup-nuget@v1.0.2
 
-    - name: Restore NuGet packages
-      run: nuget restore GitHubActionMVCDemo.sln
+    - name: Increment Step Patch
+      id: increment-semver-patch
+      uses: Benbentwo/increment-semver@master
+      with:
+         version-level: '-p'
+   
+    - name: Get the output version
+      run: |
+          echo "The new patch version was ${{ steps.increment-semver-patch.outputs.version }}"
+          
+    #- name: Restore NuGet packages
+    #  run: nuget restore GitHubActionMVCDemo.sln
 
-    - name: Build the Solution
-      run: msbuild GitHubActionMVCDemo.sln /nologo /nr:false /p:DeployOnBuild=true /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:DeleteExistingFiles=True /p:platform="Any CPU" /p:configuration="Release" /p:PublishUrl="../_build"
+    #- name: Build the Solution
+    #  run: msbuild GitHubActionMVCDemo.sln /nologo /nr:false /p:DeployOnBuild=true /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:DeleteExistingFiles=True /p:platform="Any CPU" /p:configuration="Release" /p:PublishUrl="../_build"
      
    # - name: 'Generate Version'
    #   id: version
